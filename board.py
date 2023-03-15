@@ -1,0 +1,16 @@
+#board creation
+def print_Board(Player_1, Player_2):
+    zero = 'X' if Player_1[0] else ('O' if Player_2[0] else 0)
+    one = 'X' if Player_1[1] else ('O' if Player_2[1] else 1)
+    two = 'X' if Player_1[2] else ('O' if Player_2[2] else 2)
+    three = 'X' if Player_1[3] else ('O' if Player_2[3] else 3)
+    four = 'X' if Player_1[4] else ('O' if Player_2[4] else 4)
+    five = 'X' if Player_1[5] else ('O' if Player_2[5] else 5)
+    six = 'X' if Player_1[6] else ('O' if Player_2[6] else 6)
+    seven = 'X' if Player_1[7] else ('O' if Player_2[7] else 7)
+    eight = 'X' if Player_1[8] else ('O' if Player_2[8] else 8)
+    print(f"{zero} | {one} | {two} ")
+    print(f"--|---|---")
+    print(f"{three} | {four} | {five} ")
+    print(f"--|---|---")
+    print(f"{six} | {seven} | {eight} ")
